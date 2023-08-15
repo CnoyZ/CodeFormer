@@ -2,8 +2,8 @@ import importlib
 from copy import deepcopy
 from os import path as osp
 
-from basicsr.utils import get_root_logger, scandir
-from basicsr.utils.registry import ARCH_REGISTRY
+from CodeFormer.basicsr.utils import get_root_logger, scandir
+from CodeFormer.basicsr.utils.registry import ARCH_REGISTRY
 
 __all__ = ['build_network']
 
